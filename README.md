@@ -1,4 +1,4 @@
-#Class Number
+#Class Number#
 This directory is about the class CISC-3140. It has all the assignments that are related to this class.
 
 ##Organization
