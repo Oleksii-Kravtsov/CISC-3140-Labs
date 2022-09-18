@@ -1,0 +1,168 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220904112436
+Username: LENOVO-LAPTOP\BaHbo
+RunAs User: LENOVO-LAPTOP\BaHbo
+Configuration Name: 
+Machine: LENOVO-LAPTOP (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 13380
+PSVersion: 5.1.22000.832
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.832
+BuildVersion: 10.0.22000.832
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\BaHbo\Documents\PowerShell_transcript.LENOVO-LAPTOP.dVmGgOOh.20220904112436.txt
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> cp FutureLabz FutureLabs
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/4/2022  11:23 AM                l
+-a----          9/4/2022  11:20 AM           1041 FutureLabs
+-a----          9/4/2022  11:20 AM           1041 FutureLabz
+-a----         8/31/2022   3:08 PM             48 README.md
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> rm l
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          9/4/2022  11:20 AM           1041 FutureLabs
+-a----          9/4/2022  11:20 AM           1041 FutureLabz
+-a----         8/31/2022   3:08 PM             48 README.md
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> mkdir Lab1
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/4/2022  11:26 AM                Lab1
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/4/2022  11:26 AM                Lab1
+-a----          9/4/2022  11:20 AM           1041 FutureLabs
+-a----          9/4/2022  11:20 AM           1041 FutureLabz
+-a----         8/31/2022   3:08 PM             48 README.md
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> mv FutureLabs Lab1
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/4/2022  11:26 AM                Lab1
+-a----          9/4/2022  11:20 AM           1041 FutureLabz
+-a----         8/31/2022   3:08 PM             48 README.md
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> rm FutureLabz
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/4/2022  11:26 AM                Lab1
+-a----         8/31/2022   3:08 PM             48 README.md
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs> cd Lab1
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          9/4/2022  11:20 AM           1041 FutureLabs
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> javac FutureLabs
+error: Class names, 'FutureLabs', are only accepted if annotation processing is explicitly requested
+1 error
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> javac FutureLabs.java
+error: file not found: FutureLabs.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> mv FutureLabs FutureLabs.java
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          9/4/2022  11:20 AM           1041 FutureLabs.java
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> javac FutureLabs.java
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> ls
+
+
+    Directory: C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          9/4/2022  11:27 AM           1159 FutureLabs.class
+-a----          9/4/2022  11:20 AM           1041 FutureLabs.java
+
+
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> java FutureLabs
+Please choose the lab # to print out
+end
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> java FutureLabs 1
+Wed, September 27, 2022
+end
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> java FutureLabs 2
+Wed, October 26, 2022
+end
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> java FutureLabs 3
+Wed, November 23, 2022
+end
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> java FutureLabs 4
+Wed, December 7, 2022
+end
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> java FutureLabs final
+Mon, December 19, 2022 1-3pm
+end
+PS C:\Users\Bahbo\Desktop\CISC-3140-Labs\Lab1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220904112852
+**********************
